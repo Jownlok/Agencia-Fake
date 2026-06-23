@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+}
+
+.navbar{
+    height:100px; background-color: rgb(255, 255, 255);display: flex; flex-flow: row wrap;justify-content: center; align-items: center;
+
+}
+.logo{
+    font-size: 20px;
+    flex: 20%; margin-left: 10%;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.menu {
+    flex:70%; text-align: right; padding: 20px; 
+}
+
+.menu a {
+    color: black; text-decoration: none; font-size: 20px; padding: 20px 16px;
+}
+
+.menu a:hover {
+    color:rgb(255, 0, 0); border-top: 4px solid black;
+
+}
+
+#botao {
+    background: rgb(0, 15, 66); padding: 10px 25px; color:white;border-radius: 6px; margin-right:10%; margin-left:5%;
+}
+#botao:hover {
+    border: none; background: rgb(255, 0, 0)
+}
+/* Parei no minuto 28 */
